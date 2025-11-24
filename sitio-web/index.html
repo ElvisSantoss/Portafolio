@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es">1
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Multimedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <i class="fas fa-palette"></i> Portafolio Multimedia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mosaicos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#diseño">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#audio">Audio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 hero-content">
+                    <h1 class="display-3 fw-bold">Portafolio de actividades realizadas por estudiantes de ingenieria en sistemas durante el ciclo-ll 2025</h1>
+                    <h3 class="lead">Un viaje multimedia a través del diseño, la fotografía y la innovación digital</h3>
+                    <a href="#mosaicos" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket me-2"></i> Vamos chavales
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+        <div class="container">
+            <div class="section-title">
+                <h2>Proyectos</h2>
+            </div>
+            
+            <!-- Imagenes -->
+            <!-- Mosaicos -->
+            <div id="mosaicos" class="person-section animate">
+                <h2 class="person-title">Mosaicos</h2>
+                <h4>Esta serie de mosaicos fue desarrollada como parte de las actividades prácticas de la asignatura, 
+                    con el objetivo de aplicar de manera directa los conocimientos adquiridos en Inkscape.
+                </h4>
+                    <br>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/mosaicos/mosaico elvis.png" class="project-img clickable-image" alt="Mosaicos de Elvis" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Volcan Chaparrastique</h3>
+                                <h4>Representación artística del volcán utilizando piezas geométricas.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo1" aria-expanded="false" aria-controls="autorInfo1">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo1">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Elvis Adrian Santos Santos.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Volcan Chaparrastique.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Mosaico digital.</p>
+                                        </div>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/mosaicos/mosaico keni.jpg" class="zoom-img project-img clickable-image" alt="Mosaico de Keni" onclick="openImageModal(this)">
+                            </div>
+
+                            <div class="p-4">
+                                <h3 class="mb-3">El Torogoz</h3>
+                                <h4>Ilustración en mosaico de un torogoz, construida con fragmentos poligonales 
+                                    y tonos vibrantes.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+
+
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo2" aria-expanded="false" aria-controls="autorInfo2">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo2">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autar:</strong>Marlyn Keni Cruz Portillo.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Torogoz</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Mosaico digital.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/mosaicos/mosaico david.jpg" class="zoom-img project-img clickable-image" alt="Mosaico de david" onclick="openImageModal(this)">
+                            </div>
+
+                            <div class="p-4">
+                                <h3>Volcan El Boqueron</h3>
+                                <h4>Mosaico inspirado en el volcan de San Salvador.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo3" aria-expanded="false" aria-controls="autorInfo3">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo3">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> David Josue Villatoro Guevara.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> El Boqueron.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Mosaico digital.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/mosaicos/mosaico josael.jpg" class="zoom-img project-img clickable-image" alt="Mosaico de josael" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Bandera de El Sanlvador</h3>
+                                <h4>Proyecto visual simplificado y minimalista sobre la bandera de El Salvador</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo4" aria-expanded="false" aria-controls="autorInfo4">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo4">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Josael Antonio Díaz Parada.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Bandera El Salvador.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Mosaico digital.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/mosaicos/mosaico arturo.jpg" class="zoom-img project-img clickable-image" alt="Mosaico de arturo" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Figura de un Torogoz</h3>
+                                <h4>Proyecto visual estructurado sobre un Torogoz.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo13" aria-expanded="false" aria-controls="autorInfo13">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo13">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Bryan Arturo Herrera Rodriguez.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Figura de Torogoz.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Mosaico digital.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Tarjetas -->
+            
+            <div class="person-section animate">
+                <h2 class="person-title">Tarjetas de Presentación</h2>
+                <h4>En esta sección se presentan una serie de tarjetas diseñadas con fines visuales y motivacionales.</h4>
+                    <br>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                                <img src="imagenes/tarjetas/tarjeta keni.jpg" class="zoom-img project-img clickable-image" alt="Tarjeta de keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Mensaje motivacional</h3>
+                                <h4 class="text-muted mb-3">Exploración artística de una tarjeta con un mensaje motivacional.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo5" aria-expanded="false" aria-controls="autorInfo5">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo5">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autar:</strong> Marlyn Keni Cruz Portillo.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Mensaje motivacional.</p>                        
+                                            <p class="mb-0"><strong>Tipo:</strong> Tarjeta de presentación.</p>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/tarjetas/tarjeta elvis.png" class="project-img clickable-image" alt="Tarjeta Santos" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Mensaje reflexivo</h3>
+                                <h4 class="text-muted mb-3">Proyecto visual que busca generar una reflexión profunda.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo6" aria-expanded="false" aria-controls="autorInfo6">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo6">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Elvis Adrian Santos Santos.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Mensaje reflexivo.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Tarjeta de presentación.</p> 
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/tarjetas/tarjeta david.jpg" class="project-img clickable-image" alt="Salud Mental david" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Conciencia sobre Salud Mental</h3>
+                                <h4 class="text-muted mb-3">Proyecto visual que busca crear conciencia sobre la importancia del bienestar emocional. </h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo7" aria-expanded="false" aria-controls="autorInfo7">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo7">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> David Josue Villatoro Guevara.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Conciencia sobre salud mental.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Tarjeta de presentación.</p>
+                                        </div>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/tarjetas/tarjeta caleb.jpg" class="project-img clickable-image" alt="Salud Mental caleb" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Mensaje de perseverancia</h3>
+                                <h4 class="text-muted mb-3">Proyecto visual que busca inculcar el hábito de la perseverancia.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo8" aria-expanded="false" aria-controls="autorInfo8">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo8">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Josue Caleb Castillo Lemus.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Mensaje de perseverancia.</p>  
+                                            <p class="mb-0"><strong>Tipo:</strong> Tarjeta de presentación.</p>                      
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/tarjetas/tarjeta josael.png" class="zoom-img project-img clickable-image" alt="Salud Mental josael" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Conciencia sobre salud mental</h3>
+                                <h4 class="text-muted mb-3">Ilustración visual que busca crear conciencia sobre la importancia del bienestar psicológico.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo9" aria-expanded="false" aria-controls="autorInfo9">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo9">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Josael Antonio Díaz Parada.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Conciencia.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Tarjeta de presentación.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!-- Collages -->
+            <div class="person-section animate">
+                <h2 class="person-title">Collages</h2>
+                <h4>Esta sección presenta una serie de collages construidos a partir de imágenes de un mismo sitio de nuesta morada, capturado desde distintos ángulos y 
+                    perspectivas.</h4>
+                    <br>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/collages/collage caleb.jpg" class="project-img clickable-image" alt="Collage caleb" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Fiesta de felinos</h3>
+                                <h4 class="text-muted mb-3">Este collage reúne diferentes imágenes organizadas en una composición visualmente armoniosa.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo10" aria-expanded="false" aria-controls="autorInfo10">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo10">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Josue Caleb Castillo Lemus.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Fiesta de felinos.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Collage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/collages/collage elvis.jpg" class="project-img clickable-image" alt="collage" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Atardecer glorioso</h3>
+                                <h4 class="text-muted mb-3">Este collage captura la belleza de un atardecer a través de distintas imágenes que resaltan sus colores cálidos.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo11" aria-expanded="false" aria-controls="autorInfo11">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo11">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Elvis Adrian Santos Santos.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Atardecer glorioso.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Collage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/collages/collage keni.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Jardin de petalos</h3>
+                                <h4 class="text-muted mb-3">Este collage reúne varias imágenes de flores que destacan por su forma, color y delicadeza.</h4>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo12" aria-expanded="false" aria-controls="autorInfo12">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo12">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Marlyn Keni Cruz Portillo.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Jardín de petalos.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Collage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                            <img src="imagenes/collages/collage arturo.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="mb-3">Espacio personal</h3>
+                                <h4 class="text-muted mb-3">Este collage reune tomas de diferentes ángulos de un espacio personal.>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo14" aria-expanded="false" aria-controls="autorInfo14">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo14">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Bryan Arturo Herrera Rodriguez.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> Espacio personal.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Collage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    </section>
+
+    <hr>
+    <!--Diseño de login-->
+
+    <section id="diseño">
+        <div class="container">
+            <div class="section-title">
+                <h2>Diseño de Login</h2>
+                <h4>En este apartado se presenta la interfaz visual, estructura, estilo y 
+                    composición del login tal como se integra en el proyecto.</h4>
+                    <br>
+            </div>
+
+            <div class="person-section animate">
+                <div class="row">
+
+                    <!-- Login 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative" >
+                                <img src="imagenes/login/login caleb.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex flex-wrap gap-2 mb-3"><div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo15" aria-expanded="false" aria-controls="autorInfo15">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo15">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Josue Caleb Castillo Lemus.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> App de Pollo Campestre.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Login.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Login 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                                <img src="imagenes/login/login david.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo16" aria-expanded="false" aria-controls="autorInfo16">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo16">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> David Josue Villatoro.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> App de Pasteleria Lorena.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Login.</p>
+                                        </div>
+                                    </div>
+                                </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+</div> 
+
+<!-- ESPACIO ENTRE FILAS -->
+<div style="height: 60px;"></div>
+
+<div class="row">
+
+                    <!-- Login 3 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                                <img src="imagenes/login/login keni.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo17" aria-expanded="false" aria-controls="autorInfo17">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo17">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Marlyn Keni Cruz Portillo.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> App de McDonald's.</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Login.</p>
+                                        </div>
+                                    </div>
+                                </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Login 4 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="image-container position-relative">
+                                <img src="imagenes/login/login bryan.jpg" class="project-img clickable-image" alt="collage keni" onclick="openImageModal(this)">
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#autorInfo18" aria-expanded="false" aria-controls="autorInfo18">
+                                        <i class="fas fa-info-circle me-2"></i>Información
+                                    </button>
+                
+                                    <div class="collapse mt-3" id="autorInfo18">
+                                        <div class="card card-body bg-light">
+                                            <h6 class="card-title">Detalles</h6>
+                                            <p class="mb-1"><strong>Autor:</strong> Bryan Arturo Herrera Rodriguez.</p>
+                                            <p class="mb-1"><strong>Año de creación:</strong> 2025.</p>
+                                            <p class="mb-1"><strong>Título:</strong> App de Wendy's</p>
+                                            <p class="mb-0"><strong>Tipo:</strong> Login.</p>
+                                        </div>
+                                    </div>
+                                </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+</div> 
+
+        </div>
+    </section>
+    <hr>
+
+    <!-- Audio -->
+
+    <section id="audio">
+    <div>
+        <div class="text-center">
+            <div class="section-title">
+            <h2>Audio de Presentación</h2>
+            </div> 
+            <br><br>
+            <h4>En este apartado tenemos agregado el audio de narración de una boda.</h4><br>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8 animate">
+                <div class="d-flex justify-content-center" style="padding:0; margin:0; background:none; box-shadow:none; border:none;">
+                    <audio controls style="width:900px; max-width:7000px;">
+                        <source src="audio/boda_audio.mp3" type="audio/mp3">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+
+                <h4 class="text-center text-muted mt-3"></h4>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<hr>
+
+    <!-- Video flipante -->
+
+    <section id="video">
+        <div class="container">
+            <div class="section-title">
+                <h2>Vídeo Presentación</h2> 
+                <h4>En este apartado se presenta un video elaborado a partir de un evento social, en este caso una boda, donde se aplicaron diversas técnicas y 
+                    herramientas de edición multimedia.</h4>
+                    <br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 animate">
+                    <div style="position:relative; padding-bottom:56.25%; border-radius:20px; overflow:hidden; box-shadow:var(--shadow-lg);">
+                        <video controls style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
+                            <source src="video/video_boda.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                    <h4 class="text-center text-muted mt-3">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-- Aqui es donde los chavales nos pueden brindar informacion de contacto -->
+    <section id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 animate">
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" required id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required id="email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Asunto" required id="asunto">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Mensaje" required id="mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Informacion de contacto y Redes sociales -->
+                <div class="col-lg-6 animate">
+                    <div class="card contact-info">
+                        <div class="p-4">
+                            <h5>Información de Contacto</h5>
+                            <ul class="list-unstyled mt-4">
+                                <li class="mb-3"><i class="fas fa-envelope me-2"></i> esantos@gmail.com</li>
+                                <li class="mb-3"><i class="fas fa-phone me-2"></i> +503 7888-6852</li>
+                                <li class="mb-3"><i class="fas fa-map-marker-alt me-2"></i> San Miguel, El Salvador</li>
+                            </ul>
+                            <h5 class="mt-4">Redes Sociales</h5>
+                            <div class="social-links mt-3">
+                                <a href="https://github.com/ElvisSantoss" class="me-3" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                                <a href="https://x.com/Elvis3565?t=GlkI2KvFTbxU5OaJvdVNRg&s=08 " class="me-3" target="_blank"><i class="fab fa-x-twitter fa-2x"></i></a>
+                                <a href="https://wa.me/qr/43LMY6FMJI7AO1 " class="me-3" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+                                <a href="https://www.instagram.com/segovia_elvs?igsh=ejM5a241MXl0Y2Ey" class="me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Portafolio Multimedia | Todos los derechos reservados.</p>
+            <p><a href="#" class="text-light">Política de Privacidad</a> • <a href="#" class="text-light">Términos de Uso</a></p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <img id="modalImage" src="" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="audio-controls">
+        <button id="playBtn"><i class="fas fa-play"></i></button>
+        <button id="pauseBtn"><i class="fas fa-pause"></i></button>
+        <input type="range" id="volumeControl" class="volume-control" min="0" max="1" step="0.1" value="0.5">
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="audio/Relaxing.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+</html>
